@@ -42,7 +42,9 @@
 }
 
 - (void)dealloc {
+#if DEBUG
     NSLog(@"ZJScrollPageView--销毁");
+#endif
 }
 
 #pragma mark - public helper
